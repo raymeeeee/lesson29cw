@@ -16,8 +16,8 @@ public:
     void setPercent(int percent);
     void setSales(float sales);
 
-    void showInfo()const;
+    void showInfo()const override;
 
-    float calcSalary()const;
+    float calcSalary()const override; //final to stop polymorphism
 };
 

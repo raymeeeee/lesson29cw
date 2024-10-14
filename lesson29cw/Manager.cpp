@@ -41,5 +41,5 @@ void Manager::showInfo() const
 
 float Manager::calcSalary() const
 {
-    return (salary+sales*percent)*0.83;
+    return (salary+sales*percent/100)*0.83;
 }
